@@ -42,7 +42,7 @@ Vagrant.configure(2) do |config|
 
 
       vm_config.vm.provider :virtualbox do |vb, override|
-        override.vm.box = 'boxcutter/ubuntu1404'
+        override.vm.box = 'ubuntu/trusty64'
         vb.gui    = false
         vb.memory = ((ENV['MEMORY'] || 4).to_f * 1024).to_i
         vb.cpus   = 4

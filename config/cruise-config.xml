@@ -35,9 +35,6 @@
           </users>
         </role>
       </roles>
-      <admins>
-        <user>admin</user>
-      </admins>
     </security>
   </server>
   <config-repos>
